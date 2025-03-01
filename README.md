@@ -99,7 +99,7 @@ http://127.0.0.1:8000/api/movements/999/ranking
 
 ## 📚 Documentação Adicional
 
-Documentação Laravel 10
+<a href="https://laravel.com/docs/10.x"> Documentação Laravel 10 </a>
 
 Postman Collection (disponível na pasta docs)
 
@@ -113,6 +113,6 @@ MySQL 8.0
 
 Arquitetura REST
 
-Desenvolvido por Alikson Ramos - 2025 📦🚀
+**Desenvolvido por Alikson Ramos - 2025** 📦🚀
 
 
