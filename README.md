@@ -47,9 +47,6 @@ DB_PASSWORD=
 ```
 php artisan migrate
 ```
-```
-php artisan migrate
-```
 ## 🛠️ Seeders
 
 ```bash
@@ -100,12 +97,14 @@ http://127.0.0.1:8000/api/movements/999/ranking
 ```
 ![image](https://github.com/user-attachments/assets/8fcfe73a-1271-4f26-b08c-2969e9fa759c)
 
-📚 Documentação Adicional
+## 📚 Documentação Adicional
+
 Documentação Laravel 10
 
 Postman Collection (disponível na pasta docs)
 
-⚙️ Especificações Técnicas
+## ⚙️ Especificações Técnicas
+
 PHP 8.2.12
 
 Laravel 10.3.3
