@@ -14,9 +14,11 @@ Documentação: <a href="https://laravel.com/docs/10.x"> ref : LARAVEL </a>
  ```
 composer create-project "laravel/laravel:^10.0" tecnofit
 ```
-- Permissão pasta storage (Linux)
+- Permissões (Linux)
 ```
-sudo chmod 777 -R storage/
+sudo chown -R $USER:www-data storage bootstrap/cache
+sudo chmod -R 775 storage bootstrap/cache
+sudo chmod -R 755 public
 ```
  **Clonar repositório**
 ```
@@ -96,6 +98,11 @@ Exemplo para Erro:
 http://127.0.0.1:8000/api/movements/999/ranking
 ```
 ![image](https://github.com/user-attachments/assets/8fcfe73a-1271-4f26-b08c-2969e9fa759c)
+
+## 📚 Teste simples de integração
+```
+php artisan test --filter MovementControllerTest
+```
 
 ## 📚 Documentação Adicional
 
